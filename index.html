@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sumes</title>
+  <style>
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; background-color: #f5f7fa; color: #0a0f1c; }
+    .container { max-width: 1100px; margin: 80px auto; display: flex; gap: 40px; }
+    .left { flex: 1; }
+    .right { flex: 1; padding-left: 40px; border-left: 1px solid #e0e4ea; }
+    h1 { font-size: 48px; margin-bottom: 40px; font-weight: 700; }
+    h3 { margin-top: 30px; margin-bottom: 8px; font-size: 18px; }
+    p { margin: 0 0 12px; line-height: 1.6; color: #5c6b80; font-size: 15px; }
+    .contact-email { color: #0d9488; font-weight: 500; text-decoration: none; }
+    .contact-note { font-size: 13px; color: #8893a3; }
+    .apps-title { font-size: 20px; font-weight: 600; margin-bottom: 20px; }
+    .app-card { background: white; border-radius: 14px; padding: 18px; display: flex; align-items: center; gap: 16px; box-shadow: 0 2px 6px rgba(0,0,0,0.05); border: 1px solid #e7ebf0; max-width: 400px; }
+    .app-icon { width: 44px; height: 44px; border-radius: 10px; background: #f5a200; }
+    .app-name { font-weight: 600; font-size: 16px; }
+    .app-type { font-size: 13px; color: #6b7280; }
+    @media (max-width: 800px) { .container { flex-direction: column; margin: 40px 20px; } .right { padding-left: 0; border-left: none; border-top: 1px solid #e0e4ea; padding-top: 30px; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <h1>sumes...</h1>
+      <h3>Our Story</h3>
+      <p>We believe in keeping things simple.</p>
+      <h3>Our Mission</h3>
+      <p>Our goal is to create tools that are intuitive, practical, and easy to use—helping people get things done without complexity.</p>
+      <h3>Contact</h3>
+      <p>Have questions, feedback, or feature requests? We'd love to hear from you.</p>
+      <p>📧 Email us at <a class="contact-email" href="mailto:umexkarn10@gmail.com">umexkarn10@gmail.com</a></p>
+      <p class="contact-note">We typically respond within 24 hours.</p>
+    </div>
+    <div class="right">
+      <div class="apps-title">Our Apps</div>
+      <div class="app-card">
+        <div class="app-icon"></div>
+        <div>
+          <div class="app-name">Lumemint</div>
+          <div class="app-type">iOS App</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
